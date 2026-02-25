@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+    --primary: #4f46e5;
+    --secundary: #7c4aed;
+    --escuro: #0f172a;
+    --maisEscuro: #0a0f1c;
+    --claro: #e2e8f0;
+    --vidro: rgba(255, 255, 255, 0.1)
+}
+
+@theme {
+  --animate-flutuar: flutuar 5s ease-in-out infinite;
+
+  @keyframes flutuar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+}
