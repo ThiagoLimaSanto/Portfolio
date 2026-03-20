@@ -1,3 +1,4 @@
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { Heading } from "../Heading";
 import { Particles } from "../Particles";
 
@@ -16,6 +17,20 @@ export function Main() {
         />
         <Heading Tag="h1">Thiago Lima</Heading>
         <p className="text-[20px] text-(--claro)">Desenvolvedor FullStack</p>
+        <div className="flex gap-4">
+          <a href="">
+            <FaWhatsapp />
+          </a>
+          <a href="">
+            <FaInstagram />
+          </a>
+          <a href="">
+            <FaLinkedin />
+          </a>
+          <a href="">
+            <FaGithub />
+          </a>
+        </div>
       </main>
     </>
   );
