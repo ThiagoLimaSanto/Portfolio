@@ -17,18 +17,21 @@ export function Main() {
         />
         <Heading Tag="h1">Thiago Lima</Heading>
         <p className="text-[20px] text-(--claro)">Desenvolvedor FullStack</p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-2">
           <a href="">
-            <FaWhatsapp />
+            <FaWhatsapp color="green" size={25} />
           </a>
           <a href="">
-            <FaInstagram />
+            <FaInstagram
+              size={25}
+              className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600"
+            />
           </a>
           <a href="">
-            <FaLinkedin />
+            <FaLinkedin size={25} className="text-[#0A66C2]" />
           </a>
           <a href="">
-            <FaGithub />
+            <FaGithub size={25} />
           </a>
         </div>
       </main>

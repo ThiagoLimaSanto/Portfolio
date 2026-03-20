@@ -5,7 +5,7 @@ export function About() {
     <section id="sobre" className="py-24 px-8">
       <Heading Tag="h2">Sobre Mim</Heading>
       <div className="p-8 max-w-200 mx-auto rounded-2xl border-2 border-(--vidro) backdrop-blur-sm bg-[rgba(255,255,255,0.05)]">
-        <p className="text-center text-[1.2rem]">
+        <p className="text-[1.2rem]">
           Sou Thiago, tenho 20 anos e sou Desenvolvedor de Software com foco em
           TypeScript e desenvolvimento web full-stack. Atualmente curso o 7º
           semestre de Ciência da Computação e desenvolvo projetos utilizando
