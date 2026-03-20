@@ -3,6 +3,8 @@ import { Heading } from "../Heading";
 import { Particles } from "../Particles";
 
 export function Main() {
+  const telefone = "5564992956793";
+  const url = `https://wa.me/${telefone}`;
   return (
     <>
       <Particles />
@@ -18,19 +20,19 @@ export function Main() {
         <Heading Tag="h1">Thiago Lima</Heading>
         <p className="text-[20px] text-(--claro)">Desenvolvedor FullStack</p>
         <div className="flex gap-4 mt-2">
-          <a href="">
+          <a href={url} target="_blank"> 
             <FaWhatsapp color="green" size={25} />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/tlima7601/" target="_blank">
             <FaInstagram
               size={25}
-              className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600"
+              className="bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600 rounded-full"
             />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/dev-thiago-lima/" target="_blank">
             <FaLinkedin size={25} className="text-[#0A66C2]" />
           </a>
-          <a href="">
+          <a href="https://github.com/ThiagoLimaSanto" target="_blank">
             <FaGithub size={25} />
           </a>
         </div>
