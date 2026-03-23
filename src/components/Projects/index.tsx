@@ -10,12 +10,12 @@ export function Projects() {
         <Heading Tag="h2">Meus Projetos</Heading>
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-8 max-w-300 mx-auto">
           <Cards
-            title="Loja de Carros"
+            title="Sistema de Food Delivery"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
             imgUrl="/images/projeto1.png"
           />
           <Cards
-            title="Página de Viagens"
+            title="Sistema de adoção de Pet"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
             imgUrl="/images/projeto2.png"
           />

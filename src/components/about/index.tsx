@@ -6,8 +6,7 @@ export function About() {
       <Heading Tag="h2">Sobre Mim</Heading>
       <div className="p-8 max-w-200 mx-auto rounded-2xl border-2 border-(--vidro) backdrop-blur-sm bg-[rgba(255,255,255,0.05)]">
         <p className="text-[1.2rem] indent-8">
-          Sou Thiago, tenho 21 anos e sou Desenvolvedor de Software com foco em
-          TypeScript e desenvolvimento web full-stack. Atualmente curso o 7º
+          Sou Thiago, tenho 21 anos e sou Desenvolvedor de Software em desenvolvimento web full-stack. Atualmente curso o 7º
           semestre de Ciência da Computação e desenvolvo projetos utilizando
           React, Node.js e bancos de dados SQL e NoSQL.
         </p>
