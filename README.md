@@ -35,7 +35,7 @@ Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habil
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/portfolio.git
+git clone git@github.com:ThiagoLimaSanto/Portfolio.git
 
 # Acesse a pasta
 cd portfolio
