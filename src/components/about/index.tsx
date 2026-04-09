@@ -19,7 +19,7 @@ export function About() {
         </p>
         <p className="text-[1.2rem] indent-8">
           Além disso, possuo conhecimentos em Java (Programação Orientada a
-          Objetos) e Python.
+          Objetos) e Python(Django).
         </p>
         <p className="text-[1.2rem] indent-8">
           Busco minha primeira oportunidade como desenvolvedor, onde possa

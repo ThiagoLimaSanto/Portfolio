@@ -24,6 +24,16 @@ export function Projects() {
             description="Projeto frontend feita para aprender conceitos de React e Tailwind CSS, e uso de mensagens pelo whatsapp."
             imgUrl="/images/delivery.webp"
           />
+          <Cards
+            title="Gerador Box-shadow"
+            description="Projeto feita para praticar os conhecimentos da interação com o DOM."
+            imgUrl="/images/box-shadow.webp"
+          />
+          <Cards
+            title="Gerador Qr Code"
+            description="Projeto feita para praticar os conhecimentos da interação com o DOM. usando a api qrserver"
+            imgUrl="/images/qrcode.webp"
+          />
         </div>
       </section>
     </>
