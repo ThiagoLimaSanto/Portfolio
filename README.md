@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-# 💼 Portfólio - Seu Nome
+# 💼 Portfólio - Thiago Lima Santos
 
 Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e evolução como desenvolvedor.
 
@@ -9,12 +9,6 @@ Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habil
 ## 🚀 Demonstração
 
 🔗 Acesse o projeto: https://thiago-lima-dev.vercel.app/
-
----
-
-## 🖼️ Preview
-
-![Preview do Portfólio](https://thiago-lima-dev.vercel.app/)
 
 ---
 
@@ -41,7 +35,7 @@ Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habil
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/portfolio.git
+git clone git@github.com:ThiagoLimaSanto/Portfolio.git
 
 # Acesse a pasta
 cd portfolio
